@@ -8,7 +8,7 @@ import { Sandbox } from './Pages/Sandbox'
 export default function App() {
 
   return (
-    <BrowserRouter basename='/react-app'>
+    <BrowserRouter basename='/react-app-typescript'>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/page-1" element={<Page1/>}/>
